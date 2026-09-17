@@ -4,7 +4,7 @@ license="MIT"
 
 [[mods]]
 modId="sabledeployerfix"
-version="${file.jarVersion}"
+version="${version}"
 displayName="Sable Deployer Rotation Fix"
 description='''
 Prevents Sable from inverse-transforming Create deployer fake players
