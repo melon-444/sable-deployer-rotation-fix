@@ -4,7 +4,7 @@
   "package": "com.melon.sabledeployerfix.mixin",
   "compatibilityLevel": "JAVA_21",
   "mixins": [
-    "DeployerBlockEntityMixin"
+    "SubLevelHelperMixin"
   ],
   "injectors": {
     "defaultRequire": 1

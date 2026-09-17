@@ -3,39 +3,41 @@ loaderVersion="[4,)"
 license="MIT"
 
 [[mods]]
-modId="sable_deployer_rotation_fix"
-version="${version}"
+modId="sabledeployerfix"
+version="${file.jarVersion}"
 displayName="Sable Deployer Rotation Fix"
-authors="melon"
 description='''
-Sable Deployer Rotation Fix / Sable 机械手朝向修复
-Converts Create deployer facing to world space before Sable placement handling.
+Prevents Sable from inverse-transforming Create deployer fake players
+that are already expressed in the target SubLevel's local space.
 '''
 
 [[mixins]]
-config="sable_deployer_rotation_fix.mixins.json"
+config="sabledeployerfix.mixins.json"
 
-[[dependencies.sable_deployer_rotation_fix]]
+[[dependencies.sabledeployerfix]]
 modId="neoforge"
 type="required"
-versionRange="[21.1.228,21.2)"
+versionRange="[21.1,22)"
 ordering="NONE"
 side="BOTH"
-[[dependencies.sable_deployer_rotation_fix]]
+
+[[dependencies.sabledeployerfix]]
 modId="minecraft"
 type="required"
-versionRange="[1.21.1]"
+versionRange="[1.21.1,1.21.2)"
 ordering="NONE"
 side="BOTH"
-[[dependencies.sable_deployer_rotation_fix]]
-modId="create"
-type="required"
-versionRange="[6.0.10,6.0.11)"
-ordering="AFTER"
-side="BOTH"
-[[dependencies.sable_deployer_rotation_fix]]
+
+[[dependencies.sabledeployerfix]]
 modId="sable"
 type="required"
-versionRange="[2.0.3,2.0.4)"
+versionRange="[2.0.3,)"
+ordering="AFTER"
+side="BOTH"
+
+[[dependencies.sabledeployerfix]]
+modId="create"
+type="required"
+versionRange="[6.0.10,)"
 ordering="AFTER"
 side="BOTH"
