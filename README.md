@@ -19,7 +19,7 @@ gradlew.bat clean build
 ```
 
 Expected artifact after a successful build:
-`build/libs/sable-deployer-rotation-fix-0.1.0.jar`
+`build/libs/sable-deployer-rotation-fix-0.3.0.jar`
 
 The source jar is not an installable mod. Do not rename a source jar to pretend it is a built mod.
 
