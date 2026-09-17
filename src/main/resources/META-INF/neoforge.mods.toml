@@ -1,0 +1,41 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="MIT"
+
+[[mods]]
+modId="sable_deployer_rotation_fix"
+version="${version}"
+displayName="Sable Deployer Rotation Fix"
+authors="melon"
+description='''
+Sable Deployer Rotation Fix / Sable 机械手朝向修复
+Converts Create deployer facing to world space before Sable placement handling.
+'''
+
+[[mixins]]
+config="sable_deployer_rotation_fix.mixins.json"
+
+[[dependencies.sable_deployer_rotation_fix]]
+modId="neoforge"
+type="required"
+versionRange="[21.1.228,21.2)"
+ordering="NONE"
+side="BOTH"
+[[dependencies.sable_deployer_rotation_fix]]
+modId="minecraft"
+type="required"
+versionRange="[1.21.1]"
+ordering="NONE"
+side="BOTH"
+[[dependencies.sable_deployer_rotation_fix]]
+modId="create"
+type="required"
+versionRange="[6.0.10,6.0.11)"
+ordering="AFTER"
+side="BOTH"
+[[dependencies.sable_deployer_rotation_fix]]
+modId="sable"
+type="required"
+versionRange="[2.0.3,2.0.4)"
+ordering="AFTER"
+side="BOTH"

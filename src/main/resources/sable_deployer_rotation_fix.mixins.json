@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.melon.sabledeployerfix.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "DeployerBlockEntityMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
