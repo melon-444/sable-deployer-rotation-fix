@@ -61,5 +61,65 @@
       <option name="name" value="maven6" />
       <option name="url" value="https://api.modrinth.com/maven" />
     </remote-repository>
+    <remote-repository>
+      <option name="id" value="ParchmentMC" />
+      <option name="name" value="ParchmentMC" />
+      <option name="url" value="https://maven.parchmentmc.org/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="BlameJared" />
+      <option name="name" value="BlameJared" />
+      <option name="url" value="https://maven.blamejared.com/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="Registrate" />
+      <option name="name" value="Registrate" />
+      <option name="url" value="https://maven.ithundxr.dev/snapshots/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="Create" />
+      <option name="name" value="Create" />
+      <option name="url" value="https://maven.createmod.net/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="RyanHCode" />
+      <option name="name" value="RyanHCode" />
+      <option name="url" value="https://maven.ryanhcode.dev/releases/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="Curios" />
+      <option name="name" value="Curios" />
+      <option name="url" value="https://maven.theillusivec4.top/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="CCTweaked" />
+      <option name="name" value="CCTweaked" />
+      <option name="url" value="https://maven.squiddev.cc/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="KotlinForForge" />
+      <option name="name" value="KotlinForForge" />
+      <option name="url" value="https://thedarkcolour.github.io/KotlinForForge/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="RealRobotix" />
+      <option name="name" value="RealRobotix" />
+      <option name="url" value="https://maven.realrobotix.me/master/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="LowDragLib" />
+      <option name="name" value="LowDragLib" />
+      <option name="url" value="https://maven.firstdarkdev.xyz/snapshots/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="CurseMaven" />
+      <option name="name" value="CurseMaven" />
+      <option name="url" value="https://cursemaven.com/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="Modrinth" />
+      <option name="name" value="Modrinth" />
+      <option name="url" value="https://api.modrinth.com/maven/" />
+    </remote-repository>
   </component>
 </project>
