@@ -39,4 +39,4 @@ License: MIT for this standalone implementation; Gradle wrapper retains its upst
 
 ## Video demonstration of the fix
 
-<video src="./Readme_Resource/BugFix#1145.mp4"></video>
+<video src="./Readme_Resource/BugFix#1145.mp4" controls></video>
