@@ -1,3 +1,5 @@
+<p align="center"><img src="./Readme_Resource/icon.png" alt="Logo" width="200"></p>
+
 # Sable Deployer Rotation Fix
 
 Candidate compatibility patch for Minecraft 1.21.1, Java 21, NeoForge 21.1.228, Create 6.0.10, Sable 2.0.3 and Companion 1.6.0.
@@ -34,3 +36,7 @@ Use `./gradlew runClient` or `./gradlew runServer` for development. Place exact 
 Metadata deliberately accepts only Sable 2.0.3 and Create 6.0.10, rather than claiming future or 1.2.2 compatibility. Related APIs in the 1.2.2 source are similar; binary/runtime compatibility is untested. Do not widen version ranges without rebuilding/testing. NeoForge versions earlier than 21.1.228 are not declared supported by this candidate.
 
 License: MIT for this standalone implementation; Gradle wrapper retains its upstream license notices. Sable's separate source tree remains under its own license.
+
+## Video demonstration of the fix
+
+<video src="./Readme_Resource/BugFix#1145.mp4"></video>
